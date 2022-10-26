@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\TransactionController;
+use App\Http\Controllers\CustomerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,4 +27,5 @@ Route::get('/admin', function () {
 Route::resource('/barang',BarangController::class);
 Route::resource('/pos',TransactionController::class);
 
+Route::resource('/customer',CustomerController::class);
 // buat route untuk master data barang, customer
