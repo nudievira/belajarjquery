@@ -44,7 +44,7 @@
     </div>
 @endsection
 @push('modal-add')
-    <!-- Modal -->
+    <!-- Modal Tambah -->
     <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -100,6 +100,7 @@
             </div>
         </div>
     </div>
+    <!-- Modal Edit -->
     <div class="modal fade" id="edtModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
