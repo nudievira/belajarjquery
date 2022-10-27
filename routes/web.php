@@ -25,7 +25,7 @@ Route::get('/admin', function () {
 });
 
 Route::resource('/barang',BarangController::class);
-Route::resource('/pos',TransactionController::class);
+Route::resource('/transaksi',TransactionController::class);
 
 Route::resource('/customer',CustomerController::class);
 // buat route untuk master data barang, customer

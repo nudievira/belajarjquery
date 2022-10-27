@@ -17,9 +17,12 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @php
+                        $no = 1;
+                    @endphp
                     @foreach ($table as $i)
                         <tr>
-                            <th scope="row">1</th>
+                            <th scope="row">{{ $no++ }}</th>
                             <td>{{ $i->kode }}</td>
                             <td>{{ $i->nama }}</td>
                             <td>{{ $i->harga }}</td>
